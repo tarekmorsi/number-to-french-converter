@@ -4,6 +4,41 @@ Number can be hard to write in French.
 
 [https://fr.wikipedia.org/wiki/Nombres_en_français](https://fr.wikipedia.org/wiki/Nombres_en_fran%C3%A7ais)
 
+This Python program converts numbers into their French word equivalents. It reads a list of numbers from an input file, converts each number to French, and writes the results to an output file.
+
+### Requirements
+
+> Python 3.x
+
+### Setup
+
+Clone this repository and navigate into the project directory and run the program using the following command:
+
+> python main.py
+
+This will read the numbers from `input.txt`, convert them into French.
+
+### Input File
+
+Replace the contents of `input.txt` and follow the following format:
+
+>[0, 1, 5, 10, 11, 15]
+
+Ensure that the numbers are formatted correctly and saved in the `input.txt` file before running the program.
+
+### Output File
+
+The converted numbers will be stored in `output.txt`. Each French number representation will be on a new line corresponding to the order of numbers in `input.txt`.
+
+### Example
+
+If `input.txt` contains:
+> [0, 1, 2]
+
+After running the program, `output.txt` will contain:
+> zéro, un, deux
+
+------------------
 
 ### T**he units**
 
